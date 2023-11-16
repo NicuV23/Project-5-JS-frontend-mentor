@@ -107,7 +107,7 @@ hr {
   color: hsl(228, 34%, 66%);
 }
 
-.boxone {
+.boxOne {
   background-color: hsl(228, 28%, 20%);
   display: flex;
   flex-direction: column;
@@ -116,98 +116,62 @@ hr {
   width: 80%;
   height: 28vh;
   border-radius: 7px;
-  border-top: solid hsl(208, 92%, 53%) 4px;
   cursor: pointer;
 }
 
-.boxone h1 {
+.first {
+  border-top: solid hsl(208, 92%, 53%) 4px;
+}
+
+.second {
+  border-top: solid hsl(203, 89%, 53%) 4px;
+}
+
+.third {
+  border-top: solid 4px;
+  border-image: linear-gradient(to right, yellow, pink) 1 0 0 0;
+}
+
+.four {
+  border-top: solid hsl(348, 97%, 39%) 4px;
+}
+
+.boxOne h1 {
   color: white;
 }
 
-.boxone:hover {
+.first:hover {
   background-color: hsl(228, 28%, 40%);
 }
 
-.boxtwo:hover {
+.second:hover {
   background-color: hsl(228, 28%, 40%);
 }
 
-.boxthree:hover {
+.third:hover {
   background-color: hsl(228, 28%, 40%);
 }
 
-.boxfour:hover {
+.four:hover {
   background-color: hsl(228, 28%, 40%);
 }
 
-.boxtwo h1 {
-  color: white;
-}
-
-.boxthree h1 {
-  color: white;
-}
-
-.boxfour h1 {
-  color: white;
-}
-
-.arrowbox {
+.arrowBox {
   display: flex;
   gap: 10px;
   margin-top: 25px;
   align-items: center;
 }
 
-.arrowbox p {
+.arrowBox p {
   color: hsl(163, 72%, 41%);
 }
 
-.boxtwo {
-  background-color: hsl(228, 28%, 20%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 28vh;
-  border-radius: 7px;
-  border-top: solid hsl(203, 89%, 53%) 4px;
-  cursor: pointer;
-}
-
-.boxthree {
-  background-color: hsl(228, 28%, 20%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 28vh;
-  border-radius: 7px;
-  border-top: solid 4px;
-  border-image: linear-gradient(to right, yellow, pink) 1 0 0 0;
-  cursor: pointer;
-}
-
-.boxfour {
-  background-color: hsl(228, 28%, 20%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 28vh;
-  border-radius: 7px;
-  border-top: solid hsl(348, 97%, 39%) 4px;
-  cursor: pointer;
-}
-
-.boxfour .arrowbox p {
+.four .arrowBox p {
   color: hsl(348, 97%, 39%);
 }
 
-.overview {
+.overView {
   color: white;
   margin-left: 50px;
   margin-top: 30px;
@@ -255,7 +219,7 @@ hr {
   align-items: center;
 }
 
-.cellarrow {
+.cellArrow {
   display: flex;
   color: hsl(163, 72%, 41%);
   align-items: center;
@@ -323,7 +287,7 @@ hr {
     margin: 15px;
   }
 
-  .overview {
+  .overView {
     display: flex;
     justify-content: start;
     margin: 0;
